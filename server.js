@@ -3,8 +3,11 @@ import express from 'express';
 // Importing source files
 const router = express.Router();
 import bodyParser from 'body-parser';
+import cors from 'cors';
 // consts
 const app = express();
+app.use(cors());
+
 const posts = [
     {
         title: 'Oakley, Fife',
@@ -45,4 +48,17 @@ const server = app.listen(3000, () => {
 // string interpolation:
     console.log(`Example app listening at http://${address}:${port}`);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -2,6 +2,8 @@
 
 This is an example application, showing how to start building RESTfull services with ExpressJS and Ecmascript 6
 
+The app now will accept all the cors requests.
+
 ## How to start:
 
 ```sh
