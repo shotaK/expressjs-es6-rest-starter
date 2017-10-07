@@ -1,8 +1,13 @@
 {
   "name": "expressjs-es6-rest-starter",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "ExpressJS ES6 Rest API starter",
   "main": "server.js",
+  "homepage": "https://github.com/shotaK/expressjs-es6-rest-starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shotaK/expressjs-es6-rest-starter"
+  },
   "dependencies": {
     "body-parser": "^1.15.2",
     "cors": "^2.8.1",
@@ -16,7 +21,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node --presets es2015 ./server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "express",
+    "ES6",
+    "ExpressJS Rest API",
+    "Express js starter",
+    "express js boilerplate ES6"
+  ],
+  "author": "Shota Karkashadze <sh.karkashadze@gmail.com>",
+  "license": "MIT"
 }
